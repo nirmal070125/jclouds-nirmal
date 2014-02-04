@@ -36,6 +36,11 @@ import org.jclouds.rest.binders.BindToJsonPayload;
 
 import com.google.inject.name.Named;
 
+/**
+ * 
+ * @author nirmal
+ *
+ */
 @Consumes(MediaType.APPLICATION_JSON)
 @Path("/containers")
 public interface ContainerApi extends Closeable {

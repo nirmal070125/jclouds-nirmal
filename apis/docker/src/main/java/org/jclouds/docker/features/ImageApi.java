@@ -29,6 +29,11 @@ import org.jclouds.docker.domain.Image;
 import org.jclouds.rest.annotations.QueryParams;
 import com.google.inject.name.Named;
 
+/**
+ * 
+ * @author nirmal
+ *
+ */
 @Consumes(MediaType.APPLICATION_JSON)
 @Path("/images")
 public interface ImageApi extends Closeable {

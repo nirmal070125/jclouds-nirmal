@@ -25,6 +25,11 @@ import javax.ws.rs.core.MediaType;
 import org.jclouds.docker.domain.Version;
 import com.google.inject.name.Named;
 
+/**
+ * 
+ * @author nirmal
+ *
+ */
 @Consumes(MediaType.APPLICATION_JSON)
 @Path("/version")
 public interface VersionApi extends Closeable {
