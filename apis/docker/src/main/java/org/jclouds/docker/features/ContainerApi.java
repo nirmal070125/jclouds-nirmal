@@ -100,7 +100,7 @@ public interface ContainerApi extends Closeable {
 	 * Stop a Docker Container.
 	 * 
 	 */
-	@Named("containers:wait")
+	@Named("containers:stop")
 	@POST
 	@Path("/{id}/stop")
 	@QueryParams(keys = { "t" }, values = { "5" })
